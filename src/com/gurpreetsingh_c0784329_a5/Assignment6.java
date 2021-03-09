@@ -1,10 +1,8 @@
-package com.gurpreetsingh_c0784329_a6;
+package com.gurpreetsingh_c0784329_a5;
 
-import com.gurpreetsingh_c0784329_a5.Sample;
-
-public class Assign {
+public class Assignment6 {
     public static void main(String[] args){
-        Sample sample = new Sample();
+        Assignment5 sample = new Assignment5();
         boolean verified = sample.verifyCredentials();
         if(verified){
             sample.getFirstName();

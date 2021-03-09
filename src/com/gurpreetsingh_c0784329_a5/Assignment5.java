@@ -2,17 +2,17 @@ package com.gurpreetsingh_c0784329_a5;
 
 import javax.swing.*;
 
-public class Sample {
+public class Assignment5 {
     private String firstName;
     private String lastName;
     private float itemCost, serviceCost, optionCost, totalCost, hours;
     private int box, days;
 
-    public Sample(){
+    public Assignment5(){
 
     }
 
-    public Sample(float serviceCost, float optionCost, float itemCost, float hours, int days, int box){
+    public Assignment5(float serviceCost, float optionCost, float itemCost, float hours, int days, int box){
         this.serviceCost = serviceCost;
         this.optionCost = optionCost;
         this.itemCost = itemCost;
